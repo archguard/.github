@@ -12,3 +12,9 @@ ArchGuard 它可以：
 - 架构改造。帮助您高效的改造系统，降低改造门槛。通过多年ThoughtWorks改造经验总结，ArchGuard基于您系统的问题，向您推荐最适合的改造工具（自研/三方），自动，高效，安全的进行改造。
 - 架构守护。帮助您持续的守护系统，减缓系统腐化。ArchGuard支持个性化配置标准，在系统全生命周期及时预警，及时纠偏，以减缓系统腐化。
 
+系统组成：
+
+- [ ] [ArchGuard backend]
+- [ ] [ArchGuard frontend]
+- [ ] [ArchGuard scanner]
+- [ ] [ArchGuard frontend cli]

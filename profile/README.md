@@ -1,4 +1,4 @@
-## Evolution you architectrue in programming way.
+## Evolution you architecture in programming way.
 
 您是否遇到：
 

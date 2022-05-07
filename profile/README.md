@@ -9,8 +9,8 @@ sequenceDiagram
     Frontend->>Backend: create system with system info (like Git/SVN)
     Backend-->>Scanner: system info
     Scanner-->>Analyser(Scanner): features
-    Analyser(Scanner)-->>Scanner: model
     Scanner-->>Linter(Scanner): rules
+    Analyser(Scanner)-->>Scanner: model
     Linter(Scanner)-->>Scanner: issues
     Scanner-->>Backend: results
     Backend-->>Frontend: results

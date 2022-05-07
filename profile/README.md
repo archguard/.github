@@ -10,6 +10,6 @@ sequenceDiagram
     Backend-->>Scanner: system info
     Scanner-->>Analyser: features
     Scanner-->>Linter: rules
-    Scanner-->>Backend: results
-    Backend-->>Frontend: results
+    Scanner-->>Backend: model
+    Backend-->>Frontend: issues
 ```

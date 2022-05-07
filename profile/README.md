@@ -8,10 +8,12 @@
 sequenceDiagram
     Frontend->>Backend: create system with system info (like Git/SVN)
     Backend-->>Scanner: system info
+    activate Scanner
     Scanner-->>Analyser(Scanner): features
-    Scanner-->>Linter(Scanner): rules
     Analyser(Scanner)-->>Scanner: model
+    Scanner-->>Linter(Scanner): rules
     Linter(Scanner)-->>Scanner: issues
     Scanner-->>Backend: results
+    deactivate Scanner
     Backend-->>Frontend: results
 ```

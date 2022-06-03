@@ -14,7 +14,7 @@ sequenceDiagram
     Analyser(Scanner)-->>Scanner: model
     Scanner-->>Backend: results
 
-    Scanner-->>Linter(Scanner): rules
+    Analyser(Scanner)-->>Linter(Scanner): rules
     Linter(Scanner)-->>Scanner: issues
     Scanner-->>Backend: results
     

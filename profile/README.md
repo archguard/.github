@@ -11,9 +11,9 @@ sequenceDiagram
     activate Scanner
     
     Scanner-->>Analyser(Scanner): features
-    Analyser(Scanner)-->>Scanner: model
-
     Analyser(Scanner)-->>Linter(Scanner): rules
+
+    Analyser(Scanner)-->>Scanner: model
     Scanner-->>Backend: results
 
     Linter(Scanner)-->>Scanner: issues

@@ -12,9 +12,10 @@ sequenceDiagram
     
     Scanner-->>Analyser(Scanner): features
     Analyser(Scanner)-->>Scanner: model
-    Scanner-->>Backend: results
 
     Analyser(Scanner)-->>Linter(Scanner): rules
+    Scanner-->>Backend: results
+
     Linter(Scanner)-->>Scanner: issues
     Scanner-->>Backend: results
     

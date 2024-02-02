@@ -1,6 +1,6 @@
 ## NextGen Architecture solution: Evolution you architecture in programming way.
 
-- [x] [ArchGuard](https://github.com/archguard/archguard) - connect scanner and show data.
+- [x] [ArchGuard](https://github.com/archguard/archguard) - ArchGuard backend, scan and analysis source code, feed to server.
 - [x] [ArchGuard frontend](https://github.com/archguard/archguard-frontend) - visualization results & dashboard
 
 ```mermaid
